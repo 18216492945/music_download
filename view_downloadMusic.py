@@ -33,6 +33,9 @@ class Download():
         btn = tkinter.Button(windown,text='搜索',font= '华文隶书',command=self.down)
         btn.pack(side = 'top',pady=20,ipady=10,ipadx=120,)
 
+        label_qun = tkinter.Label(windown, text=' 学习交流群&程序下载：924776571', font='华文隶书',fg='red')
+        label_qun.pack(side='top',pady=20)
+
         windown.mainloop()
 
     # 发送请求获取响应
